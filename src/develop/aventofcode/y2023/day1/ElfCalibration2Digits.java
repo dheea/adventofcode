@@ -29,7 +29,7 @@ public class ElfCalibration2Digits {
 	}
 	private static List<Integer> getFirstDigit(String calibrationInputStr) {
 		
-		 Pattern integerPattern = Pattern.compile("-?\\d+");
+		 Pattern integerPattern = Pattern.compile("-?\\d");
 		    Matcher matcher = integerPattern.matcher(calibrationInputStr);
 
 		    List<Integer> integerList = new ArrayList<Integer>();
